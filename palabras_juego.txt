@@ -1,0 +1,11 @@
+Rinoceronte
+Dinosaurio
+Arbusto
+Avion
+Carro
+Transformador
+Circuito
+Resistencia
+Capacitor
+Inductor
+Cable
