@@ -131,7 +131,8 @@ def dibujo(error):
 
 def palabras(): #Con esta funcion extraemos las palabras del archivo y se escoge una palabra random
     datos=[]
-    with open("./Juego_Ahorcado/palabras_juego.txt","r",encoding="utf-8") as f:
+    with open("./palabras_juego.txt","r",encoding="utf-8") as f:
+    #with open("./Juego_Ahorcado/palabras_juego.txt","r",encoding="utf-8") as f:
         for line in f:
             datos.append(line)
     palabra=random.choice(datos)
