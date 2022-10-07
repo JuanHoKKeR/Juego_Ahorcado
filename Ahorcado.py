@@ -180,6 +180,7 @@ def juego():
             interfaz()
             dibujo(error)
             if error==8:
+                print("".join(pal))
                 continue
             print("█  "," ".join(adivina),"  █","      --contiene ",len(adivina),"letras--")
             letra=input("""
